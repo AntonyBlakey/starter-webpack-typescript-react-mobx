@@ -5,7 +5,8 @@
   "main": "./build/app-bundle.js",
   "scripts": {
     "postinstall": "typings install",
-    "start": "webpack-dev-server --inline --hot"
+    "start": "webpack-dev-server --inline --hot",
+    "clean": "rm -rf node_modules typings"
   },
   "author": "",
   "license": "ISC",
