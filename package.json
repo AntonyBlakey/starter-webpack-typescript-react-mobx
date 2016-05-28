@@ -1,0 +1,27 @@
+{
+  "name": "vwmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/app-bundle.js",
+  "scripts": {
+    "postinstall": "typings install",
+    "start": "webpack-dev-server --inline --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4",
+    "webpack": "^1.13.1",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "mobx": "^2.1.7",
+    "mobx-react": "^3.2.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
